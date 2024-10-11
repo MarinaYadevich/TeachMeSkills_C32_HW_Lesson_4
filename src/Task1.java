@@ -9,7 +9,7 @@
 
 public class Task1 {
     public static void main(String[] args) {
-         int[] values = {3, 90, 45, 89, 6, 54};
+         int[] values = {3, 90, 90, 89, 6, 54};
          Scanner sc = new Scanner(System.in);
 
          System.out.println("Первоначальный массив чисел: " + Arrays.toString(values));

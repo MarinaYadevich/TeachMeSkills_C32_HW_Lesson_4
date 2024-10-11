@@ -22,6 +22,7 @@ public class Task0 {
         }else{
             System.out.println("Заданное число не входит в массив");
         }
+        System.out.println("End");
 
     }
 }
