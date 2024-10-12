@@ -21,10 +21,18 @@ public class Task1 {
         int pos = Arrays.binarySearch(values, a);
          // System.out.println(pos);
 
+        int count = 0;
+        for(int i = 0; i < values.length; i++){
+            if(values[i] == a){
+                count++;
+            }
+        }
+        System.out.println("Число " + a + " в массиве встречается " + count + " раз.");
+
         if(pos < 0){
             System.out.println("Заданного числа нет в массиве.");
         }else{
-            int[] values1 = new int[values.length - 1];
+            int[] values1 = new int[values.length - count];
             // System.out.println(values1.length);
 
             int index = 0;
